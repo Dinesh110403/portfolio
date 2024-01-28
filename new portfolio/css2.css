@@ -1,0 +1,55 @@
+section
+{
+    padding: 2rem;
+}
+.explore
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.project
+{
+    color: rgb(138, 10, 121);
+    text-align: center;
+    font-size: 3.5rem;
+}
+.project-1
+{
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+.pd1
+{
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 10%;
+    padding: 1rem;
+}
+.pd1 img
+{
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 1rem;
+}
+@media screen and (max-width:758px) {
+    .proj
+    {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.readmore
+{
+    color: rgb(91, 6, 86);
+    border-color: #ff331fff;
+    padding: 0.8rem;
+    border-radius: 20px;
+    background: none;
+}
+.readmore:hover
+{
+    cursor: url(curh.png),none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+}

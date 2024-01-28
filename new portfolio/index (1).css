@@ -1,0 +1,230 @@
+/*patlet
+--lightblack: rgb(29, 29, 29);
+--dark blue: #3626a7ff;
+--sky blue: #657ed4ff;
+--orange: #ff331fff;
+--ghost-white: #fbfbffff;
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    transition: 0.5s;
+}
+body
+{
+    cursor: url(cur.png),none;
+    background-color: #bde0fe;
+    font-family: 'Poppins', sans-serif;
+}
+.opt
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.opt a
+{
+    font-size: 2rem;
+    color: #000000;
+    text-decoration: none;
+}
+.opt a:hover
+{
+    cursor: url(curh.png),none;
+    color: #e7419b;
+    filter: drop-shadow(0px 0px 20px rgb(48, 48, 48));
+}
+.row
+{
+    align-items: center;
+    padding: 2rem 0;
+}
+.sl
+{
+    font-size: 2rem;
+    color: rgb(146, 21, 157);
+    padding-left: 20%;
+}
+.sp
+{
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    padding-left: 20%;
+}
+.ll
+{
+    color:rgb(146, 21, 157);
+    font-size: 3rem;
+}
+.name{
+    padding-left: 20%;
+}
+
+.fed
+{
+    color: rgb(146, 13, 170);
+}
+
+@media screen and (min-width: 1200px)
+{
+  .pimg
+  {
+    margin: 0rem 0rem 0rem 15rem;
+  }
+  .opener
+  {
+    margin: 0rem 15rem 0rem 0rem;
+  }
+  .btn
+  {
+    margin: 0rem 15rem 0rem 0rem;
+  }
+}
+.btn
+{
+    align-items: center;
+    border-radius: 20px;
+    border: 0.15rem #657ed4ff solid;
+    padding: 0.8rem;
+    color: rgb(238, 238, 238);
+    background-color: #1e1c3c;
+}
+.btn:hover
+{
+    cursor: url(curh.png),none;
+    color: #ff331fff;
+    background-color: white;
+    border: 0.2rem #657ed4ff solid;
+}
+section
+{
+    padding: 2rem;
+}
+.explore
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.project
+{
+    color: rgb(138, 10, 121);
+    text-align: center;
+    font-size: 3.5rem;
+}
+.project-1
+{
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+.pd1
+{
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 10%;
+    padding: 1rem;
+}
+.pd1 img
+{
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 1rem;
+}
+@media screen and (max-width:758px) {
+    .proj
+    {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.readmore
+{
+    color: rgb(91, 6, 86);
+    border-color: #ff331fff;
+    padding: 0.8rem;
+    border-radius: 20px;
+    background: none;
+}
+.readmore:hover
+{
+    cursor: url(curh.png),none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+}
+.cimg
+{
+    display: flex;
+    justify-content: center;
+}
+.course1 h2
+{
+    color: rgb(3, 3, 3);
+    
+}
+.course1
+{
+    padding: 2rem;
+}
+.plsi-details
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    color: rgb(0, 0, 0);
+}
+.plsi p
+{
+    font-size: 1.3rem;
+}
+.cd
+{
+    display: flex;
+    color: rgb(0, 0, 0);
+    gap: 20px;
+    justify-content: center;
+}
+.cd p
+{
+    position: relative;
+    top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.icons a
+{
+    transition: 0.5s;
+    filter: grayscale(90%);
+    /* cursor: none; */
+}
+.icons a:hover{
+    transform: scale(1.5);
+    filter: grayscale(0%) drop-shadow(0px 0px 30px  rgb(255, 255, 255) );
+    transition: 0.5s;
+    cursor: url(curh.png),none;
+}
+
+.img
+{
+    filter: drop-shadow(0 30px 40px #1e1c3c);
+}
+.img :hover
+{
+    transform: translateY(-3px) scale(1.02);
+}
+.c1{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
